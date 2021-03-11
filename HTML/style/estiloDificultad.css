@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+#cuerpo{
+  border-radius: 22px;
+  width: 50%;
+  height: 600px;
+  background: #fff;
+  margin-left: 370px;
+  -webkit-box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+}
+
+#cuerpo h1{
+  font-family: 'Potta one';
+  color: #2f418a;
+  padding-top: 22px;
+}
+
+#easy{
+  width: 82%;
+  height: 75px;
+  margin-top: 40px;
+  background-color: #62c758;
+}
+
+#easy button{
+  width: 100%;
+  height: 75px;
+  border: none;
+  font-size: 25px;
+  background-color: #62c758;
+  color: #ffffff;
+}
+
+#medium{
+  width: 82%;
+  height: 75px;
+  margin-top: 40px;
+  background-color: #f0a902;
+}
+
+#medium button{
+  width: 100%;
+  height: 75px;
+  border: none;
+  font-size: 25px;
+  background-color: #f0a902;
+  color: #ffffff;
+}
+
+#hard{
+  width: 82%;
+  height: 75px;
+  margin-top: 40px;
+  background-color: #f0022a;
+}
+
+#hard button{
+  width: 100%;
+  height: 75px;
+  border: none;
+  font-size: 25px;
+  background-color: #f0022a;
+  color: #ffffff;
+}
+
+#cuerpo p{
+  font-family: Arial;
+  font-size: 18px;
+}
+
+body{
+  background-image: url(../fotos/background4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

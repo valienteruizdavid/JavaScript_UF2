@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+body{
+  background-image: url(../fotos/background2.jpg);
+}
+
+#cuerpo{
+  height: 722px;
+  width: 52%;
+  background-color: #ffffff;
+  margin-left: 376px;
+  -webkit-box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 18px 43px 0px rgba(0,0,0,0.75);
+  border-radius: 26px;
+}
+
+#cuerpo h1{
+  padding-top: 46px;
+  color: #cc02b4;
+  text-align: center;
+  font-family: 'Potta one';
+  font-size: 24px;
+}
+
+#cuerpo button{
+  background-color: #cc02b4;
+  border: none;
+  margin-left: 18px;
+  margin-top: 20px;
+  color: #f2f2f2;
+  font-size: 21px;
+  width: 188px;
+  padding: 10px;
+  border-radius: 21px;
+}
+
+#cuerpo input[type=number]{
+  width: 220px;
+  height: 30px;
+  font-size: 16px;
+}
+
+#cuerpo p{
+  font-size: 22px;
+  font-family: Arial;
+}
+
+#cuerpo label{
+  font-family: Arial;
+  font-size: 18px;
+}

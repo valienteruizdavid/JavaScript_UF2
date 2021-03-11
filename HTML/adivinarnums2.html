@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>¿Adivinas mi número?</title>
+    <script src="../js/Juego.js"></script>
+    <link rel="stylesheet" href="style/estiloAdivinarNums2.css">
+  </head>
+  <body>
+    <div id="cuerpo">
+      <h1>¿Eres capaz de adivinar el número que estoy pensando?</h1>
+      <center>
+        <img src="fotos/fotobody1.jpg" width="320"/>
+      </center>
+      <br>
+      <center>
+        <form id="dificultades">
+          <input type="radio" id="easy" name="dif" value="facil"><label style="color: #5ecc2f;">Fácil</label>
+          <input type="radio" id="medium" name="dif" value="medio"><label style="color: #d9964e;">Medio</label>
+          <input type="radio" id="hard" name="dif" value="dificil"><label style="color: #e05536;">Difícil</label>
+        </form>
+
+          <input type="number" name="" value="" placeholder="Introduce el número..." id="num" style="display: none;">
+          <button name="button" onclick="nummaquina.jugar()" style="display: none;" id="aceptar">Aceptar</button>
+          <button type="" name="button" id="empezar" onclick="nummaquina.inicio()">Empezar</button>
+          <br><br>
+          <p id="txt"></p>
+          <p id="pista"></p>
+          <p id="txt3">¡Hola! Adivina el número que estoy pensando.</p>
+          <p id="txt4" style="font-size: 15px;">Fácil: acierta un número del 1 al 10.</p>
+          <p id="txt5" style="font-size: 15px;">Medio: acierta un número del 1 a 50.</p>
+          <p id="txt6" style="font-size: 15px;">Difícil: acierta un número del 1 al 100.</p>
+          <p id="txt2"></p>
+          <p id="txt"></p>
+      </center>
+    </div>
+
+
+  </body>
+</html>

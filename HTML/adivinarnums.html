@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>¡Adivino tu número!</title>
+    <script src="../js/Juego.js"></script>
+    <link rel="stylesheet" href="style/estiloAdivinarNums.css">
+  </head>
+  <body>
+    <div id="content">
+      <h1>¡Voy a adivinar tu número!</h1>
+      <br>
+      <center>
+        <img src="fotos/fotobody2.jpg" width="310">
+      </center>
+      <br>
+      <center>
+        <form id="dificultades">
+          <input type="radio" id="easy" name="dif" value="facil"><label style="color: #5ecc2f;">Fácil</label>
+          <input type="radio" id="medium" name="dif" value="medio"><label style="color: #d9964e;">Medio</label>
+          <input type="radio" id="hard" name="dif" value="dificil"><label style="color: #e05536;">Difícil</label>
+        </form>
+          <br>
+          <button type="" name="button" id="menor" onclick="mynumber.esmenor()" style="display: none;">Más pequeño</button>
+          <button type="" name="button" id="mayor" onclick="mynumber.esmayor()" style="display: none;">Más grande</button>
+          <button type="" name="button" id="correcto" onclick="mynumber.escorrecto()" style="display: none;">¡Correcto!</button>
+          <button type="" name="button" id="empezar" onclick="mynumber.empezar()">Empezar</button>
+          <br>
+          <p id="txt3">¡Hola! Piensa en un número y yo intentaré adivinarlo.</p>
+          <p id="txt4" style="font-size: 15px;">Fácil: piensa en un número del 1 al 10.</p>
+          <p id="txt5" style="font-size: 15px;">Medio: piensa en un número del 1 a 50.</p>
+          <p id="txt6" style="font-size: 15px;">Difícil: piensa en un número del 1 al 100.</p>
+          <p id="txt2"></p>
+          <p id="txt"></p>
+      </center>
+    </div>
+
+  </body>
+</html>
